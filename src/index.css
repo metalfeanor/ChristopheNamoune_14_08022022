@@ -1,0 +1,201 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1c93ff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 100%;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: white;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.DayPicker-Footer {
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.main-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 30vh;
+}
+
+.create-employee-form {
+  margin: 5%;
+}
+
+.create-employee-form input {
+  display: block;
+  width: 100%;
+  border: 1px solid #cccccc;
+  height: 39px;
+  font-size: 17px;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.create-employee-form input:focus {
+  outline: none !important;
+  border: 2px solid #2684ff;
+}
+.Employees-List-Page h1 {
+  margin-top: 25px;
+  font-size: 35px;
+  text-align: center;
+}
+.adresse {
+  background-color: #2c5fd8;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+
+.adresse span {
+  color: white;
+}
+
+.top-btn {
+  position: relative;
+  top: 2vh;
+  left: 3vw;
+}
+
+.btn {
+  font-size: 17px;
+  height: 39px;
+  color: whitesmoke;
+  font-weight: 500;
+  border: 2px solid #2684ff;
+  background-color: #2684ff;
+  min-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #2684ff;
+  border-color: 2px solid #2684ff;
+  background-color: whitesmoke;
+}
+
+.btn-link {
+  font-size: 17px;
+  color: whitesmoke;
+  font-weight: 500;
+  background-color: #2c5fd8;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.margin-btn {
+  margin: 0 10%;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.whiteblank {
+  margin: 10px 0 20px 0;
+}
+span {
+  display: block;
+}
+@media screen and (min-width: 540px) {
+  .split {
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+  }
+  .main-select {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    height: 28vh;
+  }
+  .btn-link {
+    margin: 0;
+    padding: 10px 20px;
+  }
+  .btn {
+    border-radius: 5px;
+  }
+  .create-employee-form {
+    width: 45vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main-select {
+    left: 18%;
+  }
+  h1 {
+    font-size: 78px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .main-select {
+    left: 25%;
+  }
+  h1 {
+    font-size: 90px;
+  }
+}
