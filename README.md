@@ -17,7 +17,7 @@ Convert an old Jquey project by an React App
 
 - [Styled Components](https://styled-components.com/) v5.3.3
 
-- [Modal-lib-opc14](https://www.npmjs.com/package/modal-lib-opc14) v1.1.1
+- [Modal-lib-opc14](https://www.npmjs.com/package/modal-lib-opc14) v0.1.1
 
 ## Installation Dependencies
 
